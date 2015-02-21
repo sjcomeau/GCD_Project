@@ -1,11 +1,16 @@
 # GCD_Project
 Getting and Cleaning Data Course Project in Coursera
 
-This repository contains the two files required for the Course Project: 
-runAnalysis.R
-CodeBook.md
+This repository contains the three files required for the Course Project: 
+* README.md  (this file)
+* runAnalysis.R
+* CodeBook.md
 
-The runAnalysis.R contains the R script that reads the data files, processes the data, and outputs a tidy dataset to tidy_dataset.txt.  
+__README.md__ descibes the data files used in this analysis and the data processing steps used to produce the tidy dataset output file *tidy_dataset.txt*.
+
+__runAnalysis.R__ contains the R script that reads the data files, processes the data, and outputs a tidy dataset to *tidy_dataset.txt*.  
+
+__CodeBook.md__ contains the list of variables and variable attributes used in the tidy dataset.
 
 # Data Files
 There are two groups of data files: Training data and Test data.  In this case "Test" refers to that these are from the Test data group.
@@ -53,4 +58,4 @@ The code requires sqldf and dplyr packages.
 4. Process the testing data using the same type of sequence decribed for the training data.
 5. Combine the train and test datasets to one dataset.
 6. Create a tidy dataset grouped by Activiy, Subject, and aggregated using the averages of each variable. Remove the id column.
-7. Write the tidy dataset called "tidy_dataset.txt" to a file.
+7. Write the tidy dataset to file *tidy_dataset.txt*.
