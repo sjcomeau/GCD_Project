@@ -59,3 +59,19 @@ The code requires sqldf and dplyr packages.
 5. Combine the train and test datasets to one dataset.
 6. Create a tidy dataset grouped by Activiy, Subject, and aggregated using the averages of each variable. Remove the id column.
 7. Write the tidy dataset to file *tidy_dataset.txt*.
+
+## Dataset Source
+
+Human Activity Recognition Using Smartphones Dataset <br>
+Version 1.0 <br>
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. <br>
+Smartlab - Non Linear Complex Systems Laboratory <br>
+DITEN - Universit‡ degli Studi di Genova. <br>
+Via Opera Pia 11A, I-16145, Genoa, Italy. <br>
+activityrecognition@smartlab.ws <br>
+www.smartlab.ws <br>
+
+
+Use of this dataset in publications is acknowledged by referencing the following publication [1] <br> 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
