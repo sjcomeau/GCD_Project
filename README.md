@@ -46,7 +46,7 @@ The code requires sqldf and dplyr packages.
     g.  Read the y_train.txt file.
     h.  Add an Identity column to y_train dataset for use in joins.
     i.  Combine the Activity labels, Subject, and numeric data variables and create the complete train dataset.
-        (This is where the id columns are used for the joins using SQL sntax and the sqldf function.)
+        (This is where the id columns are used for the joins using SQL snytax and the sqldf function.)
 4. Process the testing data using the same type of sequence decribed for the training data.
 5. Combine the train and test datasets to one dataset.
 6. Create a tidy dataset grouped by Activiy, Subject, and aggregated using the averages of each variable. Remove the id column.
